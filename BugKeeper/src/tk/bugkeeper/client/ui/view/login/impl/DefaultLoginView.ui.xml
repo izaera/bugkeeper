@@ -1,0 +1,50 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.buttonsCell {
+			text-align: right;
+		}
+	</ui:style>
+	<g:HTMLPanel>
+
+		    
+		<g:Grid>
+		
+		    <g:row>
+				<g:cell/>
+				<g:customCell>
+					<g:Label ui:field="messageLabel"/>		    
+				</g:customCell>        
+		    </g:row>
+
+		    <g:row>
+				<g:customCell>
+					<g:Label>Usuario:</g:Label>		    
+				</g:customCell>        
+				<g:customCell>
+					<g:TextBox ui:field="userField"/>				    
+				</g:customCell>        
+			</g:row>
+			
+		    <g:row>
+				<g:customCell>
+					<g:Label>Contraseña:</g:Label>		    
+				</g:customCell>        
+				<g:customCell>
+					<g:PasswordTextBox ui:field="passwordField"/>				    
+				</g:customCell>        
+		    </g:row>
+		    
+		    <g:row>
+		    	<g:cell/>
+		    	<g:customCell styleName="{style.buttonsCell}">	
+		    		<g:Button ui:field="enterButton">Entrar</g:Button>
+		    	</g:customCell>
+		    </g:row>
+		    
+		</g:Grid>
+		
+		
+	</g:HTMLPanel>
+</ui:UiBinder> 

@@ -1,0 +1,4 @@
+body, td, select, input, textarea, button {
+	font-family: Lucida Grande, Segoe UI, sans-serif !important;
+	font-size: small !important;
+}

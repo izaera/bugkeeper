@@ -1,0 +1,15 @@
+Seguridad
+	Implementar seguridad en el cliente (no se deja acceder a otra vista que no sea el login si no se esta autenticado)
+	Implementar seguridad en el servidor (si no hay usuario en sesion los DAOs no hacen nada)
+
+Arreglar el logger de Morphia
+	Que no coje el nuestro sino el del JDK
+
+Ventana de login
+	Ponerla bonita
+
+Ventana home
+	Diseñarla
+	Implementarla
+	
+Modelo de productos, bugs, versiones, releases, milestones, ramas, lo que sea, etc.

@@ -1,0 +1,7 @@
+BugKeeper/.apt_generated
+.factorypath
+BugKeeper/gwt-unitCache
+BugKeeper/test-classes
+BugKeeper/war/BugKeeper
+BugKeeper/war/WEB-INF/classes
+BugKeeper/war/WEB-INF/deploy
