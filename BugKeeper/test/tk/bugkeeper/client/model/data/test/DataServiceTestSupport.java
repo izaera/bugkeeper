@@ -17,7 +17,7 @@ public final class DataServiceTestSupport {
 			@Override
 			public Void answer(InvocationOnMock invocation) throws Throwable {
 				Object[] args = invocation.getArguments();
-				Receiver<Object> receiver = (Receiver<Object>)args[2];
+				Receiver<Object> receiver = (Receiver<Object>)args[args.length-1];
 				receiver.onSuccess(result);
 				return null;
 			}
@@ -30,7 +30,7 @@ public final class DataServiceTestSupport {
 			@Override
 			public Void answer(InvocationOnMock invocation) throws Throwable {
 				Object[] args = invocation.getArguments();
-				Receiver<Object> receiver = (Receiver<Object>)args[2];
+				Receiver<Object> receiver = (Receiver<Object>)args[args.length-1];
 				receiver.onFailure(error);
 				return null;
 			}
