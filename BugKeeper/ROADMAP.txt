@@ -3,7 +3,7 @@ Seguridad
 	Implementar seguridad en el servidor (si no hay usuario en sesion los DAOs no hacen nada)
 
 Arreglar el logger de Morphia
-	Que no coje el nuestro sino el del JDK
+	Que no coge el nuestro sino el del JDK
 
 Ventana de login
 	Ponerla bonita
